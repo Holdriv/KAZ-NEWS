@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, #7474BF 35%, #348AC7 100%);
+    opacity: 0.9;
+}
+
+.header-logo a{
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-search {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+}
